@@ -14,7 +14,7 @@ public class Xpath {
         driver.get("https://syntaxprojects.com/Xpath.php");
 
 //        to send the username in the text box
-        WebElement userName = driver.findElement(By.xpath("//input[@id='title']"));
+        WebElement userName = driver.findElement(By.name("//input[@id='title']"));
         userName.sendKeys("abracadabra");
 
 //       /click the button

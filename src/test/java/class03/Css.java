@@ -25,6 +25,10 @@ public class Css {
         feedbackBox.sendKeys("the website is too slow");
 
 
+//        Summary
+//          *=: Matches elements whose attribute contains the specified substring.
+//          ^=: Matches elements whose attribute starts with the specified substring.
+//          $=: Matches elements whose attribute ends with the specified substring.
 //        coursetopic
         WebElement courseTopic = driver.findElement(By.cssSelector("input[name*='contentInput']"));
         courseTopic.sendKeys("selenium");

@@ -28,10 +28,10 @@ public class DropDown {
         sel.selectByValue("Sunday");
 
         Thread.sleep(3000);
-//        select by visble text
+//        select by visible text
         sel.selectByVisibleText("Monday");
 
-//mutiple dd
+//multiple dd
         WebElement mutlipleDD = driver.findElement(By.xpath("//select[@id='multi-select']"));
 
 //        Select class

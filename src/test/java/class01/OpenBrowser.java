@@ -8,8 +8,8 @@ public class OpenBrowser {
 // instance of chromeDriver
         WebDriver driver =new ChromeDriver();
 
-//        open the chrome browser
-//        and navigate to a url
+//        open the Chrome browser
+//        and navigate to url
         driver.get("https://www.facebook.com/");
 
 //        maximize the window

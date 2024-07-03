@@ -45,5 +45,9 @@ public class WebElementCommands {
 //        get the attribute value
         WebElement attribute = driver.findElement(By.xpath("//div[@id='attributeElement']"));
         System.out.println(attribute.getAttribute("data-custom-attribute"));
+
+
+
+
     }
 }
